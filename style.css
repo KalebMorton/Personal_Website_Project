@@ -19,8 +19,10 @@ html{
     a{
         padding-right: 10px;
         color: rgb(254, 255, 242);
-    }
-    
+    }  
+}
+img{
+    margin: 10px;
 }
 a{
     color: rgb(254, 255, 242);
@@ -32,6 +34,12 @@ main{
 
 .homeInfo{
     display: flex;
+    img{
+        height: 250px;
+        padding: 8px;
+        border: 5px solid rgb(21, 43, 24);
+        box-sizing: border-box;
+    }
 }
 .homePage{
     width: 700px;
@@ -41,4 +49,17 @@ main{
 .quote{
     text-align: center;
     font-size: 30px;
+}
+.contactInfo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.projectList{
+    section:nth-child(odd){
+        background-color: rgb(57, 97, 56);
+    }
+
+    section{
+        padding: 20px;
+    }
 }
